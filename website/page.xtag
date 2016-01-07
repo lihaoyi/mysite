@@ -1,0 +1,59 @@
+<def page ajax>
+   <div fL w='640px' >
+      <content*/>
+   </div>
+   <sidebar fR w='280px' >
+      <leaveComment*/>
+      <comments*/>
+      <refresh~ period=~10~/>
+   </sidebar>
+   
+   <clear/>   
+</def>
+
+<def leaveComment>
+   <sheet>
+      <h1>Leave a Comment!</h1>
+      <leaveComment>
+
+         <form~ action=' ' method='post'> 
+         
+            <textarea mb='5px' placeholder='Your Comment' required='required' name='text'></textarea>
+            
+            <fblogin*/>
+             
+            <articleLabel*/>
+         </form>
+      </leaveComment>
+   </sheet>
+</def>
+
+<def fblogin ~userdata~ ~accessToken~>
+   
+      <if userdata and accessToken>
+         <div>
+            <div fL w='100px' >
+               <input fL clicktext type='submit' value='submit!' c='inherit'/>
+            </div>
+            <profile~ userdata=~userdata~/>
+            <clear/>
+         </div>
+      <:else>
+         
+         
+         <fb:login-button fR>
+            Log In
+            <script*>{
+               FB.XFBML.parse();
+            }</script>
+         </fb:login-button>
+         
+         <clear/>
+      </else>
+  
+   
+</def>
+
+<def articleLabel ~article~>
+   <input type='hidden' name='article' value=~article~/>
+</def>

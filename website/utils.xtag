@@ -1,0 +1,163 @@
+
+<def slidebox ~width='640px'~ ~n=1~>
+   <slidebox attrs classes w=~width~>
+      <btn arrowL l='0px' w='64px' h='100%' p='absolute'/>
+      <btn arrowR r='0px' w='64px' h='100%' p='absolute'/>
+      <holder>
+     
+         <div l='0px' style='width:auto; white-space:nowrap;'>
+            <enclosed~/>
+         </div>
+        
+      </holder>
+      <script*>{
+      
+         var slidebox = script.parent();
+         var slider = slidebox.children('.holder').children('div');
+
+         slidebox.children('.arrowL').click(function(){
+            if(slider.css('left') != '0px'){
+               slider.animate({left: "+=" + slider.children().width()});
+            }
+         });
+         
+         slidebox.children('.arrowR').click(function(){
+            if(slider.css('left') != -(slider.children(":last").position().left) + "px"){
+               slider.animate({left: "-=" + slider.children().width()});
+            }
+         });
+         var sum = 0;
+         slider.children().each(function(){sum += $(this).width();});
+         slider.width(sum);
+         slider.children().css('float', 'left');
+         slider.children('script').css('display', 'none');
+      
+      }</script>
+   </slidebox>
+</def>
+
+<def image enclosed ~source~ ~link~ ~textSource~ ~highTitle~>
+   
+   <image attrs borderbox classes>
+      <div>
+         <if link>
+            <a block href=~link~>
+               <script*>{
+                  var link = script.parent();
+                  if (link.parent().parent().hasClass("ajax")){
+                     link.attr('onclick', "go('" + link.attr('href') + "');");
+                     link.removeAttr('href');
+                  }
+               }</script>
+               <img center clickable block src=~source~/>
+            </a>
+            
+         </if>
+         
+         <if not link>
+            <img center block src=~source~/>
+         </if>
+         <if highTitle>
+            <caption borderbox l='15px' t='15px' p='absolute' >
+               <div>
+                  <enclosed~/>
+               </div>
+            </caption>         
+         <:else>
+            <caption mouseFade borderbox b='0' w='100%' p='absolute' style='padding: 0px 10%;'>
+               <div>
+                  <enclosed~/>
+               </div>
+            </caption>
+         </else>
+         
+      
+      </div>
+   </image>
+
+</def>
+
+<def code enclosed><pre classes attrs prettyprint><enclosed~/></pre></def>
+
+<def cd enclosed><code classes attrs prettyprint><enclosed~/></code></def>
+  
+<def wiki enclosed ~link~>
+   <a clicktext href=~"http://en.wikipedia.org/wiki/" + link~><enclosed~/></a>
+</def>
+<def h1 enclosed>
+   <div h1 attrs classes>
+      <h1>
+         <enclosed~/>
+      </h1>
+   </div>
+</def>
+<def expand enclosed ~minHeight=150~>
+   <expand weakOutline>
+      <holder borderbox style='margin: 10px'>
+         <div>
+            <enclosed~/>
+         </div>
+      </holder> 
+      <pointer arrowD center h='64px' w='100%' b='0px' p='absolute'/>
+      <script*>{
+         var prev = script.parent();
+         var minHeight = ~minHeight~;
+         
+         prev.children('.holder').height(minHeight);
+         swapArrow = function(){$(this).siblings(".pointer").toggleClass('arrowD').toggleClass('arrowU');}
+         prev.children('.pointer').toggle(
+            function(){$(this).siblings('.holder').animate({height : $(this).siblings('.holder').children('div').height()}, swapArrow);},
+            function(){$(this).siblings('.holder').animate({height : minHeight}, swapArrow);}
+         );
+
+      }</script>
+   </expand>
+   
+</def>
+
+
+<def a enclosed ~href~>
+   <a classes attrs clicktext href=~href~>
+      <enclosed~/>
+      <script*>{
+         var link = script.parent();
+         if (link.hasClass("ajax")){
+            link.attr('onclick', "go('" + link.attr('href') + "');");
+            link.removeAttr('href');
+         }
+      }</script>
+   </a>
+</def>
+
+
+<def form enclosed>
+   <form attrs classes>
+      <enclosed~/>
+      <ajaxifyForm~/>
+   </form>
+</def>
+
+
+<def ajaxifyForm>
+   <script*>{
+      ajaxify(script.parent());
+   }</script>
+</def>
+
+<def timestamp ~time~>
+   <span>~time~</span>
+</def>
+
+<def refresh ~period~>
+   <script*>{
+      script.repID = setInterval(
+         function(){
+            if(script.is("html *")){
+               refresh();
+            }else{
+               console.log("STOP T " + script.repID);
+               clearInterval(script.repID);
+            }}, ~period~ * 1000)
+     console.log("START T " + script.repID);
+   }</script>
+</def>

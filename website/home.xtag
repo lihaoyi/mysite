@@ -1,0 +1,108 @@
+
+<def page ajax>
+   <banner w='960px'>
+       <banner*/>
+   </banner>
+   <content fL w='640px' >
+      <content*/>
+   </content>
+   <sidebar fR w='280px' >
+      <sidebar*/>
+   </sidebar>
+   <clear/>   
+</def>
+
+<def content ~posts~>
+   
+   <h1~ mt='15px'>Latest Updates</h1>
+   <for postData in posts>
+      <post~ postData=~postData~/>
+   </for>
+
+</def>
+
+<def post ~postData~>
+   <post pane h='180px' mt='15px' style='margin-bottom: 30px;'>
+      <div fL h='180px' w='376px'>
+         <div h='117px' mb='15px' style='overflow: hidden;'>
+            <a~ ajax href=~postData.url~><h2>~postData.fullname~</h2></a>
+            <p mt='0px' >
+               {~postData.text~}
+            </p>
+         </div>
+         <div p='absolute' b='0px'>
+            <for i, pic in enumerate(postData.smallPics)>
+               <image* fR width=~64~ height=~48~ mr=~'14px' if i else '0px'~ source=~postData.imagePath() + pic~/>
+            </for>
+         </div>
+      </div>
+      
+     <image* ajax fR width=~240~ height=~180~ source=~postData.imagePath() + postData.displayPic~ link=~postData.url~/>
+      
+      <clear/>
+   </post>
+</def>
+
+<def banner ajax ~posts~>
+   <banner >
+      <slidebox~ width='960px'>
+         <for postData in posts>
+            <image* ajax width=~960~ height=~480~ source=~postData.imagePath() + postData.banner~ link=~postData.url~ highTitle=~True~>
+               <h1>~postData.fullname~</h1>
+               <h2><timestamp* time=~postData.latest~ /></h2>
+            </image>
+         </for>
+      </slidebox>
+   </banner>
+</def>
+
+<def sidebar ajax>
+   <h1~ mt='15px'>Latest Comments</h1>
+   <refresh~ period="10"/>
+   
+   <comments*/>
+   
+   
+   
+</def>
+
+
+<def etc ajax>
+   
+</def>
+
+<def comments ajax ~comments~>
+
+   <comments pane>
+      <for data in comments>
+          <comment~ article=~data.article~ text=~data.text~ userdata=~data.userdata~ date=~data.date~ url=~data.url~/>
+      </for>
+   </comments>
+</def>
+<def profile ~userdata~ ~date=None~>
+   <profile fR> 
+      
+      <image* fR source="http://graph.facebook.com/~userdata.username~/picture" link=~"http://www.facebook.com/" + userdata.username~/>
+      <div fR  h='100%' l='-10px'>
+         <p tR mt='0' h='50%'><a~ href=~"http://www.facebook.com/" + userdata.username~> ~userdata.name~</a></p>
+         <p tR mb='0' h='50%'><if date><timestamp* time=~date~/><:else><now*/></else></p>
+      </div>
+      <clear/>
+
+   </profile>
+   
+</def>
+
+<def comment ~text~ ~userdata~ ~date~ ~article~ ~url~>
+   <comment mt='20px'>
+      <if article != None>
+         <p tL>on <a~ ajax href=~url~>~article~</a>...</p>
+      </if>
+
+      <p mb='0px'>~text~</p>
+      <profile~ userdata=~userdata~ date=~date~/>      
+      <clear/>
+   </comment>
+</def>
+
+

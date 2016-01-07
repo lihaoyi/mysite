@@ -1,0 +1,9 @@
+<def content ajax ~source~ ~date~ ~fullname~ ~banner~>
+   <image* source=~banner~ width=~640~ height=~320~ highTitle=~True~>
+      <h1>~fullname~</h1>
+      <h2><timestamp* time=~date~/></h2>
+   </image>
+   <content pane>
+      <render ~source~/>
+   </content>
+</def>

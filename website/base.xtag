@@ -1,0 +1,113 @@
+
+<def main>
+   <html>
+      <head~/>
+      <body p='relative'>
+         <main center w='960px' style='margin-bottom: 100px;'>
+            <title>techcreation.sg</title>            
+            <header~/>
+            <menubar* w='960px' h='40px' mb='15px'/>
+            <page~/>
+         </main>
+         <floatMenu*/>
+      </body>
+   </html>
+</def>
+
+<def page ajax/>
+
+<def header>
+   <header h='60px' w='100%'>
+      <image* ajax source="media/resources/Logo.png" link="/" p='absolute'  t='10px'/>
+   </header>
+</def>
+
+<def menubar ~articles~>
+   <menubar attrs>
+      <for node in articles>
+         <btn~ fL name=~node.name~ content=~node.content~ mr="10px"/>
+      </for>
+      <btn~ fL name='about' url=~'/about'~ mr="0px"/>
+   </menubar>
+</def>
+
+<def head>
+   <head>
+      
+      <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'/>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400' rel='stylesheet' type='text/css'/>
+      <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'/>
+      <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'/>
+      <link rel="stylesheet/less" type="text/css" href="/media/style.less"/>
+      <script src="/media/less.js"/>
+      <script src="/media/jquery.js"/>
+      <script src="/media/jquerycookie.js"/>
+      <script src="/media/ajax.js"/>
+      <script src="/media/autoresize.js"/>
+      <link href="/media/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+      <script src="/media/google-code-prettify/prettify.js"/>
+      <div id='fb-root'/>
+      <script src="http://connect.facebook.net/en_US/all.js"/>
+      <script>{
+         FB.init({ 
+            appId:'165907186817169', cookie:true, 
+            status:true, xfbml:true 
+         });
+         FB.Event.subscribe("auth.statusChange", function(data){go("");});
+      }</script>
+      <script type="text/javascript">{
+
+         var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-27464920-1']);
+         _gaq.push(['_trackPageview']);
+
+         (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+
+      }</script>
+   </head>
+</def>
+
+<def btn ~name~ ~content=None~ ~url=None~>
+   <btnshell classes attrs borderbox w='184px' h='40px' >  
+      <if url>
+         <a~ ajax block noline href="~url~">
+   	  	  <btn clickable h='40px'>~name~</btn>
+   	   </a>
+         <drop h='0px'>fix for inline-block bug</drop>
+      <:else>
+         <if type(content) is list>
+            <btn clickable h='40px'>~name~</btn>
+            <drop>
+               <for node in content>
+                  <btn~ name=~node.name~ content=~node.content~ url=~node.url~/>
+               </for>
+            </drop>
+         <:else>
+            <a~ ajax noline href="~url~">
+               <btn clickable h='40px'>~name~</btn>
+            </a>
+         </else>
+      </else>      
+   </btnshell>
+</def>
+
+<def floatMenu ajax ~text~>
+   <floatMenu h='20px' p='fixed' b='0px' r='0px' c='white' style='padding: 0px 20px; z-index: 1000; '>
+      
+      <span start style='display:none;'>~text~</span>
+      <span> Render Time: </span>
+      <span rendertime></span>
+      <script*>{
+         var now = (new Date()).getTime();
+         var rendertime = Math.round($.cookie('rendertime') * 1000);
+         $('span.rendertime', script.parent()).text(rendertime);
+      }</script>
+   </floatMenu>
+   
+</def>
+
+

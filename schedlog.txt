@@ -1,0 +1,1008 @@
+2011-11-30 18:00:01.967278	scheduled tasks: 1
+2011-11-30 18:00:17.513442	<function preparePhotos at 0x2a4b0c8> DONE
+2011-12-01 18:00:01.871994	scheduled tasks: 1
+2011-12-01 18:00:01.872324	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 39, in preparePhotos
+    log("preparing photos")
+  File "/home/mysite/www/library.py", line 25, in log
+    Lib.logTdo(msg, 'log.txt');
+AttributeError: class Lib has no attribute 'logTdo'
+
+2011-12-02 18:00:01.668570	scheduled tasks: 1
+2011-12-02 18:00:14.555685	<function preparePhotos at 0x29f8050> DONE
+2011-12-03 18:00:02.972419	scheduled tasks: 1
+2011-12-03 18:00:19.609154	<function preparePhotos at 0x3867398> DONE
+2011-12-04 18:00:02.319065	scheduled tasks: 1
+2011-12-04 18:00:17.402444	<function preparePhotos at 0x385b320> DONE
+2011-12-05 18:00:01.220001	scheduled tasks: 1
+2011-12-05 18:00:12.739421	<function preparePhotos at 0x385b320> DONE
+2011-12-06 18:00:02.189866	scheduled tasks: 1
+2011-12-06 18:00:13.391801	<function preparePhotos at 0x385b320> DONE
+2011-12-07 18:00:02.292744	scheduled tasks: 1
+2011-12-07 18:00:19.007426	<function preparePhotos at 0x41f22a8> DONE
+2011-12-08 18:00:01.586079	scheduled tasks: 1
+2011-12-08 18:00:13.204559	<function preparePhotos at 0x41f22a8> DONE
+2011-12-11 18:00:01.345039	scheduled tasks: 1
+2011-12-11 18:00:23.707462	<function preparePhotos at 0x677eb90> DONE
+2011-12-12 18:00:01.190538	scheduled tasks: 1
+2011-12-12 18:00:16.320582	<function preparePhotos at 0x41b6aa0> DONE
+2011-12-13 18:00:01.739601	scheduled tasks: 1
+2011-12-13 18:00:15.381640	<function preparePhotos at 0x41b6aa0> DONE
+2011-12-14 18:00:01.778440	scheduled tasks: 1
+2011-12-14 18:00:22.015575	<function preparePhotos at 0x41b6aa0> DONE
+2011-12-15 18:00:01.408293	scheduled tasks: 1
+2011-12-15 18:00:15.851008	<function preparePhotos at 0x41b6aa0> DONE
+2011-12-16 18:00:01.253801	scheduled tasks: 1
+2011-12-16 18:00:13.391744	<function preparePhotos at 0x41b6aa0> DONE
+2011-12-17 18:00:01.765522	scheduled tasks: 1
+2011-12-17 18:00:14.288604	<function preparePhotos at 0x43d1aa0> DONE
+2011-12-18 18:00:01.442072	scheduled tasks: 1
+2011-12-18 18:00:01.442461	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 42, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2011-12-19 18:00:01.160225	scheduled tasks: 1
+2011-12-19 18:00:01.160524	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2011-12-20 18:00:01.665484	scheduled tasks: 1
+2011-12-20 18:00:01.665768	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2011-12-21 18:00:01.311220	scheduled tasks: 1
+2011-12-21 18:00:01.311523	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2011-12-22 18:00:01.729883	scheduled tasks: 1
+2011-12-22 18:00:01.730167	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2011-12-23 18:00:02.522280	scheduled tasks: 1
+2011-12-23 18:00:02.552165	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2011-12-24 18:00:02.464950	scheduled tasks: 1
+2011-12-24 18:00:02.500558	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2011-12-25 18:00:02.185771	scheduled tasks: 1
+2011-12-25 18:00:02.207002	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2011-12-26 18:00:01.235633	scheduled tasks: 1
+2011-12-26 18:00:01.235940	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2011-12-27 18:00:02.937926	scheduled tasks: 1
+2011-12-27 18:00:02.952310	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2011-12-28 18:00:01.663043	scheduled tasks: 1
+2011-12-28 18:00:01.681319	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-08 18:00:01.391736	scheduled tasks: 1
+2012-01-08 18:00:01.407930	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-09 18:00:01.197197	scheduled tasks: 1
+2012-01-09 18:00:01.197519	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-10 18:00:01.117140	scheduled tasks: 1
+2012-01-10 18:00:01.117683	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-11 18:00:01.645988	scheduled tasks: 1
+2012-01-11 18:00:01.646278	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-12 18:00:01.358598	scheduled tasks: 1
+2012-01-12 18:00:01.358898	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-13 18:00:01.714966	scheduled tasks: 1
+2012-01-13 18:00:01.715271	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-14 18:00:01.916634	scheduled tasks: 1
+2012-01-14 18:00:01.916911	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-15 18:00:01.778237	scheduled tasks: 1
+2012-01-15 18:00:01.778555	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-16 18:00:01.562433	scheduled tasks: 1
+2012-01-16 18:00:01.562725	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-17 18:00:01.567119	scheduled tasks: 1
+2012-01-17 18:00:01.567433	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-18 18:00:01.591988	scheduled tasks: 1
+2012-01-18 18:00:01.592265	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-19 18:00:01.627020	scheduled tasks: 1
+2012-01-19 18:00:01.627312	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-20 18:00:01.528507	scheduled tasks: 1
+2012-01-20 18:00:01.528783	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-21 18:00:01.111925	scheduled tasks: 1
+2012-01-21 18:00:01.112251	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-22 18:00:01.927381	scheduled tasks: 1
+2012-01-22 18:00:01.927673	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-23 18:00:01.839241	scheduled tasks: 1
+2012-01-23 18:00:01.839546	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-24 18:00:01.659772	scheduled tasks: 1
+2012-01-24 18:00:01.660083	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-25 18:00:01.533392	scheduled tasks: 1
+2012-01-25 18:00:01.547486	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-26 18:00:01.431431	scheduled tasks: 1
+2012-01-26 18:00:01.431704	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-27 18:00:01.384125	scheduled tasks: 1
+2012-01-27 18:00:01.395806	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-28 18:00:01.698813	scheduled tasks: 1
+2012-01-28 18:00:01.718965	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-29 18:00:01.325885	scheduled tasks: 1
+2012-01-29 18:00:01.343318	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-30 18:00:01.437909	scheduled tasks: 1
+2012-01-30 18:00:01.438462	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-01-31 18:00:01.245413	scheduled tasks: 1
+2012-01-31 18:00:01.245690	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-01 18:00:01.365650	scheduled tasks: 1
+2012-02-01 18:00:01.365944	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-02 18:00:01.734527	scheduled tasks: 1
+2012-02-02 18:00:01.734812	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-03 18:00:01.523485	scheduled tasks: 1
+2012-02-03 18:00:01.523764	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-04 18:00:01.586507	scheduled tasks: 1
+2012-02-04 18:00:01.586793	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-05 18:00:01.473545	scheduled tasks: 1
+2012-02-05 18:00:01.488736	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-06 18:00:01.850593	scheduled tasks: 1
+2012-02-06 18:00:01.850875	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-07 18:00:01.835166	scheduled tasks: 1
+2012-02-07 18:00:01.835508	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-08 18:00:01.609103	scheduled tasks: 1
+2012-02-08 18:00:01.609457	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-09 18:00:01.157147	scheduled tasks: 1
+2012-02-09 18:00:01.157437	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-10 18:00:01.158536	scheduled tasks: 1
+2012-02-10 18:00:01.166337	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-11 18:00:01.347958	scheduled tasks: 1
+2012-02-11 18:00:01.368537	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-12 18:00:01.811841	scheduled tasks: 1
+2012-02-12 18:00:01.812153	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-13 18:00:01.313017	scheduled tasks: 1
+2012-02-13 18:00:01.344636	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-14 18:00:02.221528	scheduled tasks: 1
+2012-02-14 18:00:02.239648	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-15 18:00:01.991046	scheduled tasks: 1
+2012-02-15 18:00:02.103373	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-16 18:00:01.838357	scheduled tasks: 1
+2012-02-16 18:00:01.915917	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-17 18:00:02.714517	scheduled tasks: 1
+2012-02-17 18:00:02.772059	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-20 18:00:01.446116	scheduled tasks: 1
+2012-02-20 18:00:01.499744	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-21 18:00:01.286840	scheduled tasks: 1
+2012-02-21 18:00:01.287176	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-22 18:00:01.571892	scheduled tasks: 1
+2012-02-22 18:00:01.572201	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-23 18:00:01.373529	scheduled tasks: 1
+2012-02-23 18:00:01.373807	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-24 18:00:01.133763	scheduled tasks: 1
+2012-02-24 18:00:01.134234	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-25 18:00:01.103874	scheduled tasks: 1
+2012-02-25 18:00:01.104158	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-26 18:00:01.850394	scheduled tasks: 1
+2012-02-26 18:00:01.850729	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-27 18:00:01.123921	scheduled tasks: 1
+2012-02-27 18:00:01.124191	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-28 18:00:01.132806	scheduled tasks: 1
+2012-02-28 18:00:01.133098	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-02-29 18:00:01.692083	scheduled tasks: 1
+2012-02-29 18:00:01.692427	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-03-01 18:00:01.556110	scheduled tasks: 1
+2012-03-01 18:00:01.556551	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-03-02 18:00:01.337956	scheduled tasks: 1
+2012-03-02 18:00:01.350430	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-03-03 18:00:01.581329	scheduled tasks: 1
+2012-03-03 18:00:01.581631	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-03-04 18:00:01.463912	scheduled tasks: 1
+2012-03-04 18:00:01.464181	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-03-05 18:00:01.746870	scheduled tasks: 1
+2012-03-05 18:00:01.774003	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-03-06 18:00:02.046154	scheduled tasks: 1
+2012-03-06 18:00:02.063748	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-03-07 18:00:02.130187	scheduled tasks: 1
+2012-03-07 18:00:02.149491	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-03-08 18:00:01.348922	scheduled tasks: 1
+2012-03-08 18:00:01.382128	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-03-31 19:00:01.148800	scheduled tasks: 1
+2012-03-31 19:00:01.225025	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-01 19:00:01.267213	scheduled tasks: 1
+2012-04-01 19:00:01.267475	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-02 19:00:01.064322	scheduled tasks: 1
+2012-04-02 19:00:01.064583	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-03 19:00:01.691326	scheduled tasks: 1
+2012-04-03 19:00:01.691609	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-04 19:00:01.467834	scheduled tasks: 1
+2012-04-04 19:00:01.468099	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-05 19:00:02.049874	scheduled tasks: 1
+2012-04-05 19:00:02.050213	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-06 19:00:01.196896	scheduled tasks: 1
+2012-04-06 19:00:01.197162	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-07 19:00:01.098075	scheduled tasks: 1
+2012-04-07 19:00:01.098360	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-08 19:00:01.861334	scheduled tasks: 1
+2012-04-08 19:00:01.861631	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-09 19:00:01.589009	scheduled tasks: 1
+2012-04-09 19:00:01.589306	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-10 19:00:01.188959	scheduled tasks: 1
+2012-04-10 19:00:01.189267	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-11 19:00:01.683755	scheduled tasks: 1
+2012-04-11 19:00:01.684037	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-12 19:00:01.925743	scheduled tasks: 1
+2012-04-12 19:00:01.926041	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-13 19:00:01.749939	scheduled tasks: 1
+2012-04-13 19:00:01.750211	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-14 19:00:01.398449	scheduled tasks: 1
+2012-04-14 19:00:01.398719	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-15 19:00:01.069378	scheduled tasks: 1
+2012-04-15 19:00:01.069643	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-16 19:00:01.039679	scheduled tasks: 1
+2012-04-16 19:00:01.039967	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-17 19:00:01.825279	scheduled tasks: 1
+2012-04-17 19:00:01.825545	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-18 19:00:01.264513	scheduled tasks: 1
+2012-04-18 19:00:01.264810	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-19 19:00:02.236409	scheduled tasks: 1
+2012-04-19 19:00:02.236714	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-20 19:00:01.157557	scheduled tasks: 1
+2012-04-20 19:00:01.157850	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-21 19:00:01.724174	scheduled tasks: 1
+2012-04-21 19:00:01.724632	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-22 19:00:01.467870	scheduled tasks: 1
+2012-04-22 19:00:01.468138	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-23 19:00:01.189385	scheduled tasks: 1
+2012-04-23 19:00:01.189938	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-24 19:00:01.968817	scheduled tasks: 1
+2012-04-24 19:00:01.969106	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-25 19:00:01.336648	scheduled tasks: 1
+2012-04-25 19:00:01.336952	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-26 19:00:01.541839	scheduled tasks: 1
+2012-04-26 19:00:01.542127	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-27 19:00:01.166462	scheduled tasks: 1
+2012-04-27 19:00:01.166765	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-28 19:00:01.028335	scheduled tasks: 1
+2012-04-28 19:00:01.028605	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-29 19:00:01.542644	scheduled tasks: 1
+2012-04-29 19:00:01.542958	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-04-30 19:00:02.010778	scheduled tasks: 1
+2012-04-30 19:00:02.011067	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-05-01 19:00:01.505067	scheduled tasks: 1
+2012-05-01 19:00:01.505356	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-05-02 19:00:01.104610	scheduled tasks: 1
+2012-05-02 19:00:01.104904	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-05-03 19:00:01.639392	scheduled tasks: 1
+2012-05-03 19:00:01.647595	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-05-04 19:00:01.423893	scheduled tasks: 1
+2012-05-04 19:00:01.431544	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-05-05 19:00:01.035106	scheduled tasks: 1
+2012-05-05 19:00:01.035389	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-05-06 19:00:01.765861	scheduled tasks: 1
+2012-05-06 19:00:01.766174	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-05-07 19:00:01.694506	scheduled tasks: 1
+2012-05-07 19:00:01.732836	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-06 19:00:01.238560	scheduled tasks: 1
+2012-07-06 19:00:01.259432	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-07 19:00:01.315813	scheduled tasks: 1
+2012-07-07 19:00:01.336532	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-08 19:00:01.635955	scheduled tasks: 1
+2012-07-08 19:00:01.658939	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-09 19:00:02.742805	scheduled tasks: 1
+2012-07-09 19:00:02.815651	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-10 19:00:02.673966	scheduled tasks: 1
+2012-07-10 19:00:02.774817	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-11 19:00:02.596460	scheduled tasks: 1
+2012-07-11 19:00:02.643396	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-12 19:00:03.076310	scheduled tasks: 1
+2012-07-12 19:00:03.126726	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-13 19:00:02.771070	scheduled tasks: 1
+2012-07-13 19:00:02.893134	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-14 19:00:03.376568	scheduled tasks: 1
+2012-07-14 19:00:03.517125	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-15 19:00:02.350218	scheduled tasks: 1
+2012-07-15 19:00:02.430845	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-16 19:00:03.768512	scheduled tasks: 1
+2012-07-16 19:00:03.876308	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-17 19:00:04.358197	scheduled tasks: 1
+2012-07-17 19:00:04.477026	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+
+2012-07-18 19:00:07.918625	scheduled tasks: 1
+2012-07-18 19:00:09.064309	Traceback (most recent call last):
+  File "/home/mysite/www/scheduled.py", line 20, in index
+    func()
+  File "/home/mysite/website/about.py", line 44, in preparePhotos
+    photoData = facebook.request("li.haoyi/photos", access_token, {"limit":"0"})["data"]
+AttributeError: 'module' object has no attribute 'request'
+

@@ -1,0 +1,85 @@
+<def page ajax>
+   <aboutMe*/>
+   <aboutTechcreation*/>
+   
+</def>
+
+<def aboutMe ~images~>
+   
+   <div mt='15px'>
+      <div fL w='640px' h='350px'>
+         <h1~>About Haoyi</h1>
+         <pane h='220px'>
+            
+            
+              
+            <p>
+               I was born in <wiki~ link="Singapore">Singapore</wiki> and am currently studying Computer Science at 
+               <wiki~ link="Massachusetts_Institute_of_Technology">MIT</wiki>. I built this
+               site as a <wiki~ link="Blog">blog</wiki> of sorts, in order to give other people a chance to see some of the
+               more interesting projects I've worked on in my free time. I enjoy building things,
+               and things are better when shared. 
+            </p> 
+
+            <p>
+               This website itself is just one of the many projects i have worked on, which span both
+               the physical and virtual worlds. The initial set of content will mostly be projects
+               I have worked on the years past and have never found a home, though as time goes on
+               there will be more and more things to see!
+            </p>
+         </pane>
+         <imageList~ images=~images~/>
+      </div>
+      <div fR>
+         <image* source='media/about/aboutMe.png' link="http://www.facebook.com/li.haoyi"/>
+      </div>
+      <clear/>
+      <refresh~ period="10"/>
+   </div>
+</def>
+
+<def aboutTechcreations ~images~>
+   <div pane mt='30px'>
+      <div fR w='640px' h='350px'>
+         <h1~>About techcreation.sg</h1>
+         <pane h='220px'>
+            
+
+            <p>
+              This site was made using Python and the <a~ href='http://www.djangoproject.com'>
+              Django Framework</a>, after turning away from <a~ href='http://www.php.net'>PHP
+               </a> in disgust. In addition, I used <a~ href='http://www.jquery.com'>jQuery</a> and
+               <a~ href='http://www.lesscss.org'>lessCSS</a> to help speed up the process. It's
+               hosted on <a~ href='http://aws.amazon.com/'>Amazon EC2</a>, which provides a free
+               year of hosting for new accounts. Read more about the technologies involved 
+               <a~ ajax href="/page/software/Server%20Stack">here</a>.
+            </p>
+            
+            <p>
+               Initial design was started 21 May 2011 in Adobe Fireworks, and the initial
+               building of the site in PHP was started soon after. More designs can be found at
+               my <a~ ajax href="/page/design/Web%20Design">Web Design Page</a>. The site was ported to
+               Django in mid June, though in early July Django's templating system was
+               replaced by <a~ href='/page/XTags'>XTags</a>, an experimental templating
+               system still under active development.
+            </p>
+            
+         </pane>
+         <imageList~ ajax images=~images~/>
+      </div>
+      <div fL>
+         <image* source='media/about/aboutTechreations.png' />
+      </div>
+      <clear/>
+      
+   </div>
+</def>
+
+<def imageList ajax classes ~images~>
+   <div h='90px' p='absolute' b='0px'>
+      <for i, image in enumerate(images)>
+         <image* classes fR width=~120~ height=~90~ mr=~'10px' if i else '0px'~ source=~image.pic~ link=~image.url~ title=~image.tooltip~/>
+         
+      </for>
+   </div>
+</def>
